@@ -1,0 +1,39 @@
+Report: Password Strength Evaluation
+
+ Passwords Tested
+I created different types of passwords to evaluate their strengths:
+
+1. 'password` → Weak (too common, all lowercase, short)
+2. `Password123` → Medium (includes uppercase + numbers, but predictable)
+3. `P@ssw0rd!23` → Strong (symbols, numbers, mix of cases, 11 characters)
+4. `Th!sIs@VeryStr0ngPassw0rd2025!` → Very Strong (long, complex, unpredictable)
+
+  Strength Results (using PasswordMeter.com)
+- **`password`** → Weak (0% strength).  
+  *Feedback*: Too short, common dictionary word, easily guessed.  
+- **`Password123`** → Medium (45% strength).  
+  *Feedback*: Better than a simple word, but predictable pattern.  
+- **`P@ssw0rd!23`** → Strong (75% strength).  
+  *Feedback*: Good use of symbols and numbers, but still based on a common word.  
+- **`Th!sIs@VeryStr0ngPassw0rd2025!`** → Very Strong (100% strength).  
+  *Feedback*: Excellent length, complexity, and randomness. Very difficult to crack.  
+
+
+  Best Practices for Strong Passwords
+- Minimum **12–16 characters**.
+- Use a **mix of uppercase, lowercase, numbers, and symbols**.
+- Avoid dictionary words, names, or common patterns.
+- Use **passphrases** (random words combined with symbols/numbers).
+- Never reuse the same password across multiple accounts.
+- Use a **password manager** to store complex passwords securely.
+- Enable **multi-factor authentication (MFA)** wherever possible.
+
+  Common Password Attacks
+- **Brute Force Attack**: Trying all possible combinations until the password is found.
+- **Dictionary Attack**: Using a list of common words and passwords.
+- **Credential Stuffing**: Reusing leaked credentials from previous data breaches.
+
+---
+
+ Conclusion
+Password strength greatly affects account security. Short and simple passwords are highly vulnerable to brute force and dictionary attacks, while long and complex passphrases significantly increase security. The evaluation highlights that **length + complexity + unpredictability** are the keys to creating a strong password.
