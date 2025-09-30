@@ -1,7 +1,7 @@
 # Password-Security
 Password Security
 
-This repository contains my submission for **Task 6: Create a Strong Password and Evaluate Its Strength** as part of the Cyber Security Internship.
+This repository contains my submission for **Create a Strong Password and Evaluate Its Strength** as part of the Cyber Security Internship.
 
  Objective
 The goal of this task is to understand what makes a password strong, evaluate different passwords using online strength checkers, and summarize best practices in password creation.
